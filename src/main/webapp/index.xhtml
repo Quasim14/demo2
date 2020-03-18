@@ -11,7 +11,7 @@
 
     <h:body>
         <h:form id="personList">
-            <h:dataTable var="person" value="#{personBean}" styleClass="table">
+            <h:dataTable var="person" value="#{personBean.person}" styleClass="table">
                 <h:column>
                     <f:facet name="header">ID</f:facet>
                     <h:outputText value="#{person.id}" />
